@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E2CE1A;
+    font-family: "Poppins", sans-serif;
+}
+.cadastro{
+   
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 850px;
+    height: 450px;
+    border-radius: 15px;
+    background: #FEFAA1;
+}
+.entrar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 15%;
+    height: 450px;
+    background: #36320A;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+.text{
+    text-align: justify;
+    margin-top: 90px;
+}
+.entrar img{
+    border-left: solid #C4C4C4 2px;
+    width: 150px;
+    
+}
+.entrar h1{
+    font-size: 25px;
+}
+.entrar span{
+    font-size: 20px;
+}
+.entrar button{
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    border: #fff solid;
+    background: transparent;
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.entrar a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.formulario{
+    position: relative;
+    top: 30px;
+    left: 345px;
+    width: 50%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+input{
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    width: 390px;
+    border-radius: 15px;
+    border: none;
+    background: #E2CE1A;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+input::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    color: #36320A;
+    padding-left: 30px;
+
+}
+.formulario button{
+    margin-top: 30px;
+    background: #36320A;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 20px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
