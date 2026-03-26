@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #272C34;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Classe utilitaria */
+.box-principal {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 100%;
+    display: block;
+    margin-left: 10px;
+}
+
+/* Início header */
+header {
+    padding-top: 42px;
+}
+
+header > .box-principal {
+    display: flex;
+}
+
+.box-principal nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 37px;
+}
+
+.list a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.list a:hover {
+    color: #EB1B24;
+}
+/* Fim header */
+
+/* Início Principal */
+main {
+    padding-top: 45px;
+}
+
+.main-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.left {
+    padding-top: 75px;
+    margin-left: 20px;
+}
+
+.left > h1 {
+    font-size: 68px;
+    color: #F7E6D3;
+}
+
+.left span {
+    display: block;
+}
+
+.right{
+    margin-right: 10px;
+    max-width: 100%;
+    display: block;
+    margin-left: 10px;
+}
+
+.product {
+    font-size: 30px;
+}
+
+.price {
+    font-size: 45px;
+    color: #EB1B24;
+    margin-top: 16px;
+}
+
+.left button {
+    border: 2px solid #fff;
+    border-radius: 18px;
+    padding: 10px;
+    margin-right: 12px;
+    color: #fff;
+    background: none;
+    margin-top: 12px;
+}
+
+.left button:hover {
+    background-color: #EB1B24;
+    border: none;
+    cursor: pointer;
+}
+/* Fim Principal */
+
+@media (max-width: 1024px){
+    a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 800px){
+    .right{
+        width: 100%;
+        display: block;
+    }
+    .main-conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .left > h1{
+        font-size: 55px;
+    }
+    .product{
+        font-size: 20px;
+    }
+}
+@media(max-width: 600px){
+    .left > h1{
+        font-size: 45px;
+    }
+}
+@media(max-width: 450px){
+    .box-principal nav{
+        margin-left: 30px;
+    }
+    .logo{
+        width: 10%;
+    }
+}
+@media(max-width: 389px){
+    .left{
+        margin-left: 50px;
+    }
+}
