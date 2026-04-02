@@ -1,0 +1,27 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1300px;
+    margin: 100px auto;
+}
+
+.left{
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    padding: 16px 32px;
+}
+.left p{
+    font-size: 18px;
+    text-align: right;
+}
+.left a{
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 16px;
+}
