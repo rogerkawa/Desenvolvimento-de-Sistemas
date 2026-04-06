@@ -1,0 +1,9 @@
+footer{
+    padding: 32px;
+    background-color: #fff;
+    text-align: center;
+}
+footer p{
+    text-transform: capitalize;
+    font-size: 14px;
+}
