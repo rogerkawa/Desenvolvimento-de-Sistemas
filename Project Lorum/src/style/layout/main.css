@@ -1,0 +1,22 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto;
+}
+main > h1{
+    text-align: justify;
+    color: var(--var2);
+    font-weight: 300;
+    font-size: 70px;
+    margin: 250px 0;
+}
+h1 span{
+    color: var(--var1);
+    font-weight: 700;
+}
+main > img{
+    width: 100%;
+    max-width: 700px;
+}
