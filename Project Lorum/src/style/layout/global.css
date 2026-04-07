@@ -12,9 +12,12 @@ body{
     font-family: "Roboto", sans-serif;
 }
 :root{
+    --fonte-principal: "Roboto", sans-serif;
     --var1: #333333;
     --var2: #BDBDBD;
     --var3: #FBFBFB;
+    --var4: #F3F3F3;
+    --var5: #2C2C2C;
 }
 img{
     width: 100%;

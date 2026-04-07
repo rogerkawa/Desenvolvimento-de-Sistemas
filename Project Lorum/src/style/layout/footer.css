@@ -1,0 +1,51 @@
+#contact{
+    background: var(--var5);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 30px;
+    color: var(--var2);
+}
+#contact > img{
+    max-width: 100px;
+    margin: 0 auto;
+}
+.inform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inform h1{
+    font-size: 20px;
+}
+.inform a{
+    text-decoration: none;
+    color: var(--var2);
+    font-size: 15px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contacts h1{
+    font-size: 20px;
+}
+span img{
+    max-width: 10px;
+}
+.media h1{
+    font-size: 20px;
+}
+.social{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+    max-width: 15px;
+}
+footer > span{
+    margin-top: 20px;
+    padding: 20px;
+    grid-column: 1/5;
+    text-align: center;
+    border-top: 2px solid var(--var1);
+}

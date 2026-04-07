@@ -13,9 +13,9 @@
             <ul>
                 <li><a href="#ini"><span>main</span></a></li>
                 <li><a href="#about">gallery</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="#">certifications</a></li>
-                <li><a href="#">contacts</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#form">certifications</a></li>
+                <li><a href="#contact">contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -61,5 +61,85 @@
             <button class="btn">all projects &rarr;</button>
         </div>
     </section>
+    <section id="form">
+        <div class="form">
+            <form action="">
+                <h1>Contact Us</h1>
+                <input 
+                type="text" placeholder="Name">
+                <input type="number" 
+                name="numb" 
+                id="numb" 
+                placeholder="Phone Number*" 
+                required=""
+                oninvalid="this.setCustomValidity('Por Favor, insira um número válido')">
+
+                <input 
+                type="email" 
+                name="mail" 
+                id="mail" 
+                placeholder="E-mail*" 
+                required="" 
+                oninvalid="this.setCustomValidity('Por Favor, entre com um E-mail válido')">
+
+                <input 
+                type="text" 
+                name="text" 
+                id="text" 
+                placeholder="Interested In">
+
+                <textarea 
+                name="coment" 
+                id="coment" 
+                placeholder="Menssage*"
+                required=""
+                oninvalid="this.setCustomValidity('Por Favor, Digite alguma mensagem')"></textarea>
+                <button type="submit">send email &rarr;</button>
+            </form>
+        </div>
+        <img src="src/assets/images/image 12.png" alt="Homem no celular">
+    </section>
+    <footer id="contact">
+        <img src="src/assets/images/logo-branca.png" alt="Logo">
+        <div class="inform">
+            <h1>Informations</h1>
+            <a href="#">main</a>
+            <a href="#">gallery</a>
+            <a href="#">projects</a>
+            <a href="#">certifications</a>
+            <a href="#">contacts</a>
+        </div>
+        <div class="contacts">
+            <h1>Contacts</h1>
+            <span>
+                <img 
+                src="src/assets/images/Vector.png"
+                alt="Localização">
+                1234 Sample Street <br> Austin Texas 78704
+            </span>
+            <span>
+                <img 
+                src="src/assets/images/Group.png" 
+                alt="Telefone">
+                512.333.2222
+            </span>
+            <span>
+                <img 
+                src="src/assets/images/Vector (1).png" 
+                alt="E-mail">
+                sampleemail@gmail.com
+            </span>
+        </div>
+        <div class="media">
+            <h1>Social Media</h1>
+            <div class="social">
+                <img src="src/assets/images/facebook.png" alt="Facebook">
+                <img src="src/assets/images/twitter.png" alt="Twitter">
+                <img src="src/assets/images/Linked In.png" alt="LinkedIn">
+                <img src="src/assets/images/pininterest.png" alt="Pinterest">
+            </div>
+        </div>
+        <span>&copy; All Rights Reserved</span>
+    </footer>
 </body>
 </html>
