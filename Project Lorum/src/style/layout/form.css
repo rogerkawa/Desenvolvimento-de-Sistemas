@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    padding: 20px;
 }
 #form img{
     margin-top: 35px;
@@ -45,4 +46,15 @@ form button{
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
+}
+@media(max-width:550px){
+    #form{
+        grid-template-columns: 1fr;
+    }
+    #form img{
+        display: none;
+    }
+    form button{
+        width: 27vw;
+    }
 }

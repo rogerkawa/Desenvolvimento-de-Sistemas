@@ -49,3 +49,12 @@ footer > span{
     text-align: center;
     border-top: 2px solid var(--var1);
 }
+@media(max-width:550px){
+    #contact{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+}

@@ -4,6 +4,7 @@ main{
     width: 100%;
     max-width: 1300px;
     margin: 50px auto;
+    padding: 20px;
 }
 main > h1{
     text-align: justify;
@@ -19,4 +20,16 @@ h1 span{
 main > img{
     width: 100%;
     max-width: 700px;
+}
+@media(max-width: 550px){
+    main{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    main > h1{
+        margin: 50px 0;
+    }
+    main > img{
+        padding-right: 20px;
+    }
 }

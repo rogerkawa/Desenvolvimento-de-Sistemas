@@ -2,26 +2,74 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto; 
+    padding: 20px;
 }
-#projects h1{
+#projects > h1{
     font-weight: 300;
     color: var(--var2);
     font-size: 50px;
 }
 .projects{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 20px;
     justify-items: end;
 }
+.projects img{
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
 .imgs1{
-    grid-column: 1/3;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/images/Rectangle\ 12.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.imgs1 > h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--var3);
+}
+.imgs1 > button{
+    color: var(--var3);
+    background: transparent;
+    text-align: left;
+    border: none;
+    padding: 15px;
+    width: 10vw;
+    cursor: pointer;
+    background-image: linear-gradient(white, white),
+    linear-gradient(white, white); /* efeito */
+    background-position: 
+    0% 100%,
+    100% 0%;
+    background-size: 
+    0% 2px,
+    0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease;
+}
+.imgs1 button:hover{
+    background-size: 100% 2px,
+    100% 2px;
 }
 .imgs2{
-    grid-column: 3/5;
+    grid-column: 4/7;
+}
+.imgs3{
+    grid-column: 1/3;
 }
 .imgs4{
-    grid-column: 2/4;
+    grid-column: 3/5;
+}
+.imgs5{
+    grid-column: 5/7;
 }
 .btn{
     cursor: pointer;
@@ -33,6 +81,23 @@
     text-transform: uppercase;
     font-size: 8px;
     letter-spacing: 2px;
-    grid-column: 4;
+    grid-column: 6;
     margin-top: 30px;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    transform: scale(1.08);
+}
+
+@media(max-width:550px){
+    .imgs1 > h1{
+        font-size: 40px;
+    }
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn, .imgs1 > button{
+        width: 27vw;
+    }
 }
